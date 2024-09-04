@@ -1,0 +1,39 @@
+{
+  "name": "wwy-debounce-plugin",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "首次发布npm包",
+  "main": "dist/wwy-debounce-plugin.js",
+  "module": "dist/wwy-debounce-plugin.js",
+  "exports": {
+    ".": {
+      "import": "./dist/wwy-debounce-plugin.js",
+      "require": "./dist/wwy-debounce-plugin.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "wwy <wangweny.kok@foxmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangwenyin/wwy-debounce-plugin.git"
+  },
+  "keywords": [
+    "vue",
+    "plugin",
+    "vue3",
+    "debounce",
+    "vite"
+  ],
+  "dependencies": {
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.1"
+  }
+}
